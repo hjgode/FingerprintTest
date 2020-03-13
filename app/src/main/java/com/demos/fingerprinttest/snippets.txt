@@ -1,0 +1,73 @@
+/*
+        numberPicker=findViewById(R.id.numberPicker);
+        numberPicker.setDisplayedValues(null);
+        final String[] selectValues=new String[]{"5", "10", "20", "40", "80", "120", "160", "180", "200", "220", "240", "255"};
+        numberPicker.setDisplayedValues(selectValues);
+        numberPicker.setMinValue(1);
+        numberPicker.setMaxValue(selectValues.length);
+        numberPicker.setValue(6);
+        numberPicker.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
+            @Override
+            public void onValueChange(NumberPicker numberPicker, int i, int i1) {
+                int v=i1;
+                Log.d(TAG, "onValueChange: "+i+", "+i1 + "=>"+v); //i1 is idx of selected value
+                Bitmap bm=ImageTools.toMonochrome(bitmap);
+                imageView2.setImageBitmap(bm);
+            }
+        });
+*/
+
+/*
+        Button btnBW=findViewById(R.id.btnBW);
+        btnBW.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(bitmap==null)
+                    return;
+                //Bitmap fsBitmap = Utils.floydSteinbergDithering(bitmap);
+                Bitmap bwBitmap = com.askjeffreyliu.floydsteinbergdithering.Utils.binaryBlackAndWhite(bitmap);
+                imageView2.setImageBitmap(bwBitmap);
+//                getBWimage(120);
+            }
+        });
+*/
+
+/*
+        Button btnLoad=findViewById(R.id.btnLoad);
+        btnLoad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                pickImage(view);
+            }
+        });
+*/
+
+/*
+        Button btnGray=findViewById(R.id.btnGray);
+        btnGray.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(bitmap==null)
+                    return;;
+
+                bitmap = ImageTools.toGrayscale(bitmap);
+                imageView2.setImageBitmap(bitmap);
+            }
+        });
+*/
+
+/*
+        Button btnHalf=findViewById(R.id.btnHalf);
+        btnHalf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(bitmap==null)
+                    return;;
+                int w=bitmap.getWidth()/2;
+                Bitmap bm= ImageTools.getResizedBitmap(bitmap, w);
+                bitmap=bm;
+                imageView2.setImageBitmap(bitmap);
+
+            }
+        });
+*/

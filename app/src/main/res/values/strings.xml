@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FingerprintTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_load">Load Image</string>
+    <string name="action_print">Print Image</string>
+    <string name="action_scale">Scale Image</string>
+    <string name="action_get_rll">Get RLL</string>
+</resources>
